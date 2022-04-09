@@ -272,12 +272,59 @@ Saya masukan nama </b> ``` Siti Latifah ```
 </html>
 ```
 ## OUTPUT
-![Screenshot (204)](https://user-images.githubusercontent.com/73010098/162565486-dfd5e167-1e13-4ede-9317-08666a40bd28.png)
-
 <b> Isi Kolom ``` BIL ``` dengan angka Lalu Klik Tombol ``` TEBAK ``` Maka akan muncul hasil di Kolom ``` MERUPAKAN BIL ``` <br>
 Contohnya Seperti Berikut </b>
 
-![Screenshot (205)](https://user-images.githubusercontent.com/73010098/162565730-cbab35bf-b54a-4b31-a4a3-434428c49a3b.png)
+![Screenshot (204)](https://user-images.githubusercontent.com/73010098/162565486-dfd5e167-1e13-4ede-9317-08666a40bd28.png)
+
+### FORM BUTTON
+``` html
+<html>
+<head>
+    <title>objek document</title>
+</head>
+<body>
+    <script language="javascript">
+        function ubahWarnaLB(warna) {
+            document.bgColor = warna;
+        }
+        function ubahWarnaLD(warna) {
+            document.fgColor = warna;
+        }
+    </script>
+
+    <h1>LATIFAH</h1>
+    <form>
+        <input type="button" value="1" onClick="ubahWarnaLB('PINK')">
+        <input type="button" value="2" onClick="ubahWarnaLB('BLUE')">
+        <input type="button" value="3" onClick="ubahWarnaLD('RED')">
+        <input type="button" value="4" onClick="ubahWarnaLD('YELLOW')">
+    </form>
+    <script language="javascript">
+        document.write("Dimodifikasi terakhir pada " + document.lastModified);
+    </script>
+</body>
+</html>
+```
+## OUTPUT
+![Screenshot (206)](https://user-images.githubusercontent.com/73010098/162566704-16e984d0-6e5f-481a-8d38-ad940298dde8.png)
+
+<b> Klik tombol 1 maka Background nya Akan Berwarna Pink <br>
+    Klik tombol 2 maka Background nya Akan Berwarna Biru <br> </b>
+   
+![Screenshot (207)](https://user-images.githubusercontent.com/73010098/162566842-6e89a9fb-b62f-49d8-8525-6455cb675f4f.png)
+
+![Screenshot (208)](https://user-images.githubusercontent.com/73010098/162566850-3b668d0b-ceed-4b6c-8fff-865226eea65d.png)
+
+<b> Klik tombol 3 maka Teksnya Akan Berwarna Merah <br>
+    Klik tombol 3 maka Teksnya Akan Berwarna Kuning <br> </b>
+    
+![Screenshot (209)](https://user-images.githubusercontent.com/73010098/162566872-6c6b15bc-09ab-4f47-95ad-b745b01867a7.png)
+
+![Screenshot (210)](https://user-images.githubusercontent.com/73010098/162566876-99ab635d-50cf-4635-8a8f-c9a823de4b2b.png)
+
+
+
 
 
 
