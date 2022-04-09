@@ -1,4 +1,9 @@
 # Lab5Web
+*** Nama	: Siti Latifah *** <br>
+*** NIM		: 312010321 *** <br>
+*** Kelas	: TI.20.A2 *** <br>
+*** Matkul	: Pemrograman Web *** <br>
+
 # BELAJAR JAVA SCRIPT
 ## Langkah Langkah praktikum
 Membuat dokumen HTML dengan nama file <b> lab5_javascript.html </b>
