@@ -96,7 +96,7 @@ Pemakaian Alert sebagai property window.
 ![Screenshot (191)](https://user-images.githubusercontent.com/73010098/162564624-18377ab4-ccc6-4dac-9bdf-41d2644b5c62.png)
 
 <b> Jika Dimasukan Nama atau Teks akan muncul Seperti dibawah ini
-Saya masukan nama </b> ```html Siti Latifah ```
+Saya masukan nama </b> ``` Siti Latifah ```
 
 ![Screenshot (192)](https://user-images.githubusercontent.com/73010098/162564698-23ad75cc-c087-4a54-9a38-59604847b5c4.png)
 
