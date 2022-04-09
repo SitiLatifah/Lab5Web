@@ -27,7 +27,7 @@ Membuat dokumen HTML dengan nama file <b> lab5_javascript.html </b>
 
 ![image](https://user-images.githubusercontent.com/73010098/162564095-075eefee-3dc1-47ae-9ee5-aedf4582715e.png)
 
-1.	JAVASCRIPT DASAR
+### 1.JAVASCRIPT DASAR
 Pemakaian Alert sebagai property window.
 
 ``` html
@@ -50,7 +50,7 @@ Pemakaian Alert sebagai property window.
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/73010098/162564127-3f405c15-90c5-49f4-adf4-b9a78f91a3f8.png)
 
-## 2. PEMAKAIAN METHOD DALAM OBJEK
+### 2. PEMAKAIAN METHOD DALAM OBJEK
 ``` html
 	<!DOCTYPE html>
       	 <html lang="en">
