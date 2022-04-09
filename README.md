@@ -102,6 +102,67 @@ Saya masukan nama </b> ``` Siti Latifah ```
 
 ![Screenshot (193)](https://user-images.githubusercontent.com/73010098/162564709-fb3102cf-7397-4579-831d-9d63656e7fb3.png)
 
+### 4.PEMBUATAN FUNGSI DAN CARA MEMANGGILNYA
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh program javascript</title>
+    <script language = "javascript">
+        function pesan(){
+            alert ("memanggil javascript lewat body onload")
+        }
+    </script>
+</head>
+<body onload=pesan()>
+    
+</body>
+</html>
+```
+
+## OUTPUT
+
+![Screenshot (194)](https://user-images.githubusercontent.com/73010098/162564865-88cab5c2-3a82-4cc1-96d2-b6f871d7b1cf.png)
+
+## DASAR PEMROGRAMAN DI JAVASCRIPT
+### 1.OPERASI DASAR ARITMATIKA
+``` html
+<html>
+<head>
+    <title>contoh program javascript</title>
+
+    <script language="javascript">
+        function test (val1,val2)
+        {
+            document.write("<br>"+"perkalian : val1*val2 "+"<br>")
+            document.write(val1*val2)
+            document.write("<br>"+"permbagian : val1/val2 "+"<br>")
+            document.write(val1/val2)
+            document.write("<br>"+"penjumlahan : val1+val2 "+"<br>")
+            document.write(val1+val2)
+            document.write("<br>"+"pengurangan : val1-val2 "+"<br>")
+            document.write(val1*val2)
+            document.write("<br>"+"modulus : val1%val2 "+"<br>")
+            document.write(val1%val2)
+        }
+    </script>
+</head> 
+<body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(5,4)>
+</body>  
+</html>
+```
+## OUTPUT
+![Screenshot (195)](https://user-images.githubusercontent.com/73010098/162564975-a3124e70-a6d5-4442-8452-9ffb56fbc725.png)
+ 
+ <b> Jika Di Klik Tombol ``` Aritmethic ``` maka akan muncul seperti Berikut </b>
+ 
+ ![Screenshot (196)](https://user-images.githubusercontent.com/73010098/162565001-9c853080-60db-4f7a-aada-eaddb4325d52.png)
+
+
 
 
 
