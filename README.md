@@ -317,11 +317,56 @@ Contohnya Seperti Berikut </b>
 ![Screenshot (208)](https://user-images.githubusercontent.com/73010098/162566850-3b668d0b-ceed-4b6c-8fff-865226eea65d.png)
 
 <b> Klik tombol 3 maka Teksnya Akan Berwarna Merah <br>
-    Klik tombol 3 maka Teksnya Akan Berwarna Kuning <br> </b>
+    Klik tombol 4 maka Teksnya Akan Berwarna Kuning <br> </b>
     
 ![Screenshot (209)](https://user-images.githubusercontent.com/73010098/162566872-6c6b15bc-09ab-4f47-95ad-b745b01867a7.png)
 
 ![Screenshot (210)](https://user-images.githubusercontent.com/73010098/162566876-99ab635d-50cf-4635-8a8f-c9a823de4b2b.png)
+
+## HTML DOM
+### PILIHAN MENGGUNAKAN CHECKBOX DENGAN PERHITUNGAN OTOMATIS
+``` html
+	<html>
+<head>
+    <title>daftar menu</title>
+    <script>
+        function hitung(ele) {
+            var total = document.getElementById('total').value;
+                total = (total ? parseInt(total) : 0);
+            var harga = 0;
+
+            if (ele.checked) {
+                harga = ele.value;
+                total += parseInt(harga);
+            } else {
+                harga = ele.value;
+                if (total > 0)
+                    total -= parseInt(harga);
+            }
+            document.getElementById('total').value= total;
+        }
+    </script>
+</head>
+<body>
+    <h1>Daftar Menu Makanan</h1>
+    <label><input type="checkbox" value="5000" id="menu1" onclick="hitung(this);" /> Ayam Goreng Rp. 5.000</label><br />
+    <label><input type="checkbox" value="500" id="menu2" onclick="hitung(this);" /> Tempe Goreng Rp. 500</label><br />
+    <label><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);" /> Telur Dadar Rp. 2.500</label><br />
+    <strong>Total Bayar : Rp. <input id="total" type="text" /></strong>
+</body>
+
+</html>
+```
+## OUTPUT
+![Screenshot (211)](https://user-images.githubusercontent.com/73010098/162567081-d988268b-00e1-456e-8db9-a656a8442079.png)
+
+<b> Jika Di Klik Menu Yang akan dipilih Akan Keluar Total Harga nya, Seperti Berikut. </b>
+
+![Screenshot (212)](https://user-images.githubusercontent.com/73010098/162567124-115efbac-bfb3-4a1f-9200-b7eff20635e2.png)
+
+### SOAL
+
+![Screenshot (213)](https://user-images.githubusercontent.com/73010098/162567135-de0bab06-f550-47b0-9e15-f00056c14eb0.png)
 
 
 
