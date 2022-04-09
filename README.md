@@ -73,5 +73,29 @@ Pemakaian Alert sebagai property window.
 
 ![image](https://user-images.githubusercontent.com/73010098/162564164-6d2a6048-d295-4ef9-932e-902328be9cf3.png)
 
+### 3.PEMAKAIAN PROMPT
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemasukan data</title>
+</head>
+<body>
+    <script language = "javascript">
+        var nama = prompt("siapa nama anda?","masukan nama anda");
+        document.write("hai, " + nama);
+    </script>
+</body>
+</html>
+```
+## OUTPUT
+
+![Screenshot (191)](https://user-images.githubusercontent.com/73010098/162564624-18377ab4-ccc6-4dac-9bdf-41d2644b5c62.png)
+
+
+
 
 
