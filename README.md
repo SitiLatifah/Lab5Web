@@ -188,7 +188,7 @@ Saya masukan nama </b> ``` Siti Latifah ```
 
 <b> Angka Lebih dari 60 </b>
 
-!![Screenshot (197)](https://user-images.githubusercontent.com/73010098/162565214-250977a8-f163-44b9-b44b-31a011435bc8.png)
+![Screenshot (197)](https://user-images.githubusercontent.com/73010098/162565214-250977a8-f163-44b9-b44b-31a011435bc8.png)
 
 ![Screenshot (198)](https://user-images.githubusercontent.com/73010098/162565218-1f8c46b6-2450-4c69-ad9d-701cd68400ac.png)
 
