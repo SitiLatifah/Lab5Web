@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>objek document</title>
+</head>
+<body>
+    <script language="javascript">
+        function ubahWarnaLB(warna) {
+            document.bgColor = warna;
+        }
+        function ubahWarnaLD(warna) {
+            document.fgColor = warna;
+        }
+    </script>
+
+    <h1>LATIFAH</h1>
+    <form>
+        <input type="button" value="1" onClick="ubahWarnaLB('PINK')">
+        <input type="button" value="2" onClick="ubahWarnaLB('BLUE')">
+        <input type="button" value="3" onClick="ubahWarnaLD('RED')">
+        <input type="button" value="4" onClick="ubahWarnaLD('YELLOW')">
+    </form>
+    <script language="javascript">
+        document.write("Dimodifikasi terakhir pada " + document.lastModified);
+    </script>
+</body>
+</html>
