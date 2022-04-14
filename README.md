@@ -20,7 +20,7 @@ Membuat dokumen HTML dengan nama file <b> lab5_javascript.html </b>
     <h1>Pengenalan JavaScript</h1>
     <h3>Contoh document.write dan console.log</h3>
     <script>
-        document.write("Hello Sunshine");
+        document.write("Hello World");
         console.log("Hello World");
     </script>
     
@@ -30,7 +30,7 @@ Membuat dokumen HTML dengan nama file <b> lab5_javascript.html </b>
 
 ## OUTPUT
 
-![image](https://user-images.githubusercontent.com/73010098/162564095-075eefee-3dc1-47ae-9ee5-aedf4582715e.png)
+![Screenshot (222)](https://user-images.githubusercontent.com/73010098/163390855-6702759f-94f0-4894-954b-a011ad87cff2.png)
 
 ### 1.JAVASCRIPT DASAR
 Pemakaian Alert sebagai property window.
