@@ -373,6 +373,137 @@ Contohnya Seperti Berikut </b>
 
 ![Screenshot (213)](https://user-images.githubusercontent.com/73010098/162567135-de0bab06-f550-47b0-9e15-f00056c14eb0.png)
 
+### JAWABAN
+
+**Berikut Syntax HTML Nya**
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section id="hero">
+        <h1>FORM VALIDASI</h1>
+            <form action="proses.php" method="POST" onSubmit="validasi()" name="formValidasi">
+                <fieldset>
+                    <legend>FORM</legend>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama"  maxlength="50" minlength="2">
+                    </div>
+                    <div class="form-group">
+                        <label for="nim">NIM</label>
+                        <input type="number" id="nim"  minlength="9" maxlength="9">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email"  ">
+                    </div>
+                    <div class="form-group">
+                        <label>Kelas</label>
+                        <select name="kelas" id="kelas">
+                            <option value="0">Pilih Kelas</option>
+                            <option value="1">TI.20.A1</option>
+                            <option value="2">TI.2O.A2</option>
+                            <option value="3">TI.20.A3</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Kirim Pesan</button>
+                </fieldset>
+            </form>
+    </section>
+    <script>
+    function validasi() {
+            var nama = document.getElementById("nama").value;
+            var nim = document.getElementById("nim").value;
+            var email = document.getElementById("email").value;
+            var jurusan = document.getElementById("kelas").value;
+            if (nama != "" && nim!="" && email!="" && kelas !="") {
+                return true;
+            }else{
+                alert('DATA TIDAK BOLEH KOSONG!');
+            }
+    }
+    </script>
+</body>
+</html>
+```
+
+**Berikut Syntax CSS Nya**
+
+``` html
+/* HERO PANEL */
+#hero {
+    background-color: #46daff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+legend {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* INPUT */
+input {
+    width: 99%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-group {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    margin-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    width: 97%;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select {
+    width: 97%;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button[type=submit] {
+    margin-left: 25px;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: #c7c2c7;
+    border: 1px solid #22f0ff;
+    color: rgb(15, 1, 15);  
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+```
+
+### OUTPUT
+**Jika Ada Salah satu Form atau data yang tidak di isi maka akan muncul Alert seperti berikut.**
+
+![Screenshot (220)](https://user-images.githubusercontent.com/73010098/163389998-469eb99f-6eef-4605-a108-941bf978175b.png)
 
 
 
